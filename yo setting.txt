@@ -1,0 +1,20 @@
+? Template Type SAP Fiori
+? Which template do you want to use? Basic
+? Data source None
+? View name UI5-Page01 (페이지명?)
+? Module name sap (모듈? 프로젝트명?)
+? Application title GSITM-ERP (런쳐패드 타이틀)
+? Application namespace com.gsitm.fiori (namespace)
+? Description TEST01 (런처패트 상세? 설명?)
+? Project folder path C:\Users\IT1804030\Desktop\SAP\Fiori\Learning
+? Minimum SAPUI5 version 1.112.1
+? Add deployment configuration Yes
+? Add FLP configuration Yes        
+? Configure advanced options No
+? Please choose the target Cloud Foundry
+? Destination name Abap
+? Add application to managed application router? No
+? Semantic Object fiori test
+? Action display
+? Title Fiori sample
+? Subtitle (optional) Learning

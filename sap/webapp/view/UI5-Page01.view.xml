@@ -1,0 +1,7 @@
+<mvc:View controllerName="com.gsitm.fiori.sap.controller.UI5-Page01"
+    xmlns:mvc="sap.ui.core.mvc" displayBlock="true"
+    xmlns="sap.m">
+    <Page id="page" title="{i18n>title}">
+        <content />
+    </Page>
+</mvc:View>
