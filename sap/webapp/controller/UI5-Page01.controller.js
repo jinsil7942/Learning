@@ -10,6 +10,10 @@ sap.ui.define([
         return Controller.extend("com.gsitm.fiori.sap.controller.UI5-Page01", {
             onInit: function () {
 
+            },
+
+            onAlertXML: function () {
+                alert("get XML Complete!");
             }
         });
     });
