@@ -1,8 +1,0 @@
-specVersion: '2.3'
-metadata:
-  name: "sap.ui.layout.sample.HorizontalLayout"
-type: application
-resources:
-  configuration:
-    paths:
-      webapp: .
