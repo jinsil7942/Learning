@@ -1,0 +1,20 @@
+<mvc:View controllerName="com.gsitm.fiori.testlocalization.controller.App"
+    xmlns:html="http://www.w3.org/1999/xhtml"
+    xmlns:mvc="sap.ui.core.mvc" displayBlock="true"
+    xmlns="sap.m">
+    <Shell id="shTag">
+        <App id="app">
+            <pages>
+                <Page id="pTag" title="{i18n>title}">
+                    <content>
+                        <VBox id="vbTag">
+                            <Input id="inpTag"></Input>
+                            <Button id="btnTag" text="Action" press=".onButtonAction"></Button>
+                            <Text id="txtID"></Text>
+                        </VBox>
+                    </content>
+                </Page>
+            </pages>
+        </App>
+    </Shell>
+</mvc:View>
