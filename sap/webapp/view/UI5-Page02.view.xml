@@ -1,0 +1,13 @@
+<mvc:View
+	controllerName="com.gsitm.fiori.sap.controller.UI5-Page02"
+	xmlns:mvc="sap.ui.core.mvc"
+	xmlns="sap.m"
+	xmlns:m="sap.m"
+	xmlns:ui="sap.m"
+	displayBlock="true"
+	height="100%"
+	busyIndicatorDelay="0"
+>
+<m:Button id="btnMsg" text="Msg" press=".onPress"></m:Button>
+<ui:Button id="btnMsg2" text="Msg2" press=".onPress"></ui:Button>
+</mvc:View>

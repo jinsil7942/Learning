@@ -98,6 +98,13 @@
                     "target": [
                         "TargetUI5-Page01"
                     ]
+                },
+                {
+                    "name": "RouteUI5-Page02",
+                    "pattern": ":?query:",
+                    "target": [
+                        "TargetUI5-Page02"
+                    ]
                 }
             ],
             "targets": {
@@ -107,6 +114,13 @@
                     "clearControlAggregation": false,
                     "viewId": "UI5-Page01",
                     "viewName": "UI5-Page01"
+                },
+                "TargetUI5-Page02": {
+                    "viewType": "XML",
+                    "transition": "slide",
+                    "clearControlAggregation": false,
+                    "viewId": "UI5-Page02",
+                    "viewName": "UI5-Page02"
                 }
             }
         },
