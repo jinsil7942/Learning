@@ -1,6 +1,7 @@
 {
     "name": "test_step2_horizonatal",
-    "version": "0.0.1",
+    "version": "1.0.0",
+    "author": "SAP SE",
     "private": true,
     "description": "Horizonatal Lean",
     "keywords": [
@@ -9,13 +10,18 @@
         "sapui5"
     ],
     "main": "webapp/index.html",
-    "dependencies": {},
+    "dependencies": {
+        "@openui5/sap.f": "^1",
+        "@openui5/sap.m": "^1",
+        "@openui5/sap.ui.core": "^1",
+        "@openui5/themelib_sap_fiori_3": "^1.112.0"
+    },
     "devDependencies": {
-        "@ui5/cli": "^3.0.0",
-        "@sap/ux-ui5-tooling": "1",
         "@sap/ui5-builder-webide-extension": "^1.1.8",
-        "ui5-task-zipper": "^0.5.0",
-        "mbt": "^1.2.18"
+        "@sap/ux-ui5-tooling": "1",
+        "@ui5/cli": "^3.0.0",
+        "mbt": "^1.2.18",
+        "ui5-task-zipper": "^0.5.0"
     },
     "scripts": {
         "start": "fiori run --open \"test/flpSandbox.html?sap-ui-xx-viewCache=false#comgsitmfioriteststep2teststep2horizonatal-display\"",
