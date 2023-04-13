@@ -96,14 +96,28 @@
             },
             "routes": [
                 {
-                    "name": "RouteStep2App",
-                    "pattern": ":?query:",
+                    "name": "Step2App",
+                    "pattern": "",
                     "target": [
                         "TargetStep2App"
+                    ]
+                },
+                {
+                    "name": "App",
+                    "pattern": "",
+                    "target": [
+                        "TargetApp"
                     ]
                 }
             ],
             "targets": {
+                "TargetApp": {
+                    "viewType": "XML",
+                    "transition": "slide",
+                    "clearControlAggregation": false,
+                    "viewId": "App",
+                    "viewName": "App"
+                },
                 "TargetStep2App": {
                     "viewType": "XML",
                     "transition": "slide",

@@ -42,6 +42,13 @@ sap.ui.define([
 									"title": "SAUI5 FIORI Step2 Horizonatal",
 									"targetURL": "#comgsitmfioriteststep2teststep2horizonatal-display"
 								}
+							},
+							{
+								"tileType": "sap.ushell.ui.tile.StaticTile",
+								"properties": {
+									"title": "SAUI5 FIORI Step2 Horizonatal",
+									"targetURL": "#comgsitmfioriteststep2teststep2horizonatal-display2"
+								}
 							}]
 						}]
 					}
@@ -54,6 +61,20 @@ sap.ui.define([
 							"comgsitmfioriteststep2teststep2horizonatal-display": {
 								"semanticObject": "comgsitmfioriteststep2teststep2horizonatal",
 								"action": "display",
+								"description": "Horizonatal Lean",
+								"title": "SAUI5 FIORI Step2 Horizonatal",
+								"signature": {
+									"parameters": {}
+								},
+								"resolutionResult": {
+									"applicationType": "SAPUI5",
+									"additionalInformation": "SAPUI5.Component=com.gsitm.fiori.teststep2.teststep2horizonatal",
+									"url": sap.ui.require.toUrl("com/gsitm/fiori/teststep2/teststep2horizonatal")
+								}
+							},
+							"comgsitmfioriteststep2teststep2horizonatal-display2": {
+								"semanticObject": "comgsitmfioriteststep2teststep2horizonatal",
+								"action": "display2",
 								"description": "Horizonatal Lean",
 								"title": "SAUI5 FIORI Step2 Horizonatal",
 								"signature": {
